@@ -1,0 +1,58 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/spec/>
+@prefix :      <https://www.dropbox.com/home/WebReasoning/voc.ttl#> .
+
+
+
+:says rdf:type rdfs:Property .
+
+:ZIP rdf:type rdfs:Property .
+
+:state rdf:type rdfs:Property .
+
+:town rdf:type rdfs:Property .
+
+:street rdf:type rdfs:Property .
+
+:civicnumber rdf:type rdfs:Property .
+
+:playedIn rdf:type rdfs:Property .
+
+:hasChild rdf:type rdfs:Property .
+
+:definedBy rdf:type rdfs:Property .
+
+:called rdf:type rdfs:Property .
+
+:Documento rdf:type foaf:Document .
+
+:approvato rdf:type rdfs:Property .
+
+:Commissione rdf:type foaf:Organization .
+
+:haStruttura rdf:type rdfs:Property .
+
+:Fred rdf:type foaf:Person .
+
+:Wilma rdf:type foaf:Person .
+
+:Dino rdf:type foaf:Person .
+
+:Paul rdf:type foaf:Person .
+
+:doc1 rdf:type foaf:Document .
+
+:doc2 rdf:type foaf:Document .
+
+:doc3 rdf:type foaf:Document .
+
+:publication rdf:type rdfs:Property .
+
+
+
+
+
+
+
+
